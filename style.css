@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #2D2F31;
+}
+
+/* nav */
+.nav{
+    display: flex;
+    height: 72px;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content:space-evenly;
+
+}
+.nav-logo{
+    height: 70px;
+}
+.logo{
+    border-radius: 25px;
+}
+.search{
+    display: flex;
+    height: 50px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+}
+.nav-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#search-tab{
+    height: 50px;
+    width: 460px;
+    border-left: transparent;
+    border-right:1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+#search-icon{
+    font-size:20px;
+    height: 50px;
+    width: 40px;
+    border-right: transparent;
+    border-left:1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-login{
+    display:flex;
+    height: 40px;
+    width: 80px;
+    border: 2px solid #2D2F31;
+    align-items: center;
+    justify-content: center;
+    color:#2D2F31;
+    font-weight: 700;
+}
+.nav-signup{
+    display:flex;
+    height: 40px;
+    width: 80px;
+    background-color: #2D2F31;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+}
+.lang{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #2D2F31;
+}
+#signup{
+    color: #ffffff;
+}
+.highlight:hover{
+    color: #5624d0;
+}
+/* hero */
+.hero{
+    height: 370px;
+    background-image: url("images/Pannel.jpg");
+    background-size: cover;
+}
+.message{
+    height: 100px;
+    width: 440px;
+    padding: 24px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    position: relative;
+    top: 72px;
+    left: 72px;
+}
+.message p span{
+    font-size: 2.3rem;
+    font-weight: 800;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+/* welcome */
+.welcome{
+    height: 130px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 48px;
+    background-color: #e4e8eb;
+}
+#welcome{
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+.welcome p span {
+    font-size: 3rem;
+    font-weight: 700;
+}
+#message{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 10px;
+}
+#detail{
+    font-size: 1.2rem;
+    margin-top: 8px;
+}
+.contents{
+    padding: 0 24px 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e4e8eb;
+    flex-wrap: wrap;
+}
+.box{
+    height: 540px;
+    width: 345px;
+    background-color: #ffffff;
+    border-radius: 15px;  
+    margin-bottom: 24px;
+    border: 1px solid #6a6f73;
+}
+.box-img{
+    height:345px;
+    border-bottom: 1px solid #6a6f73;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+.box-img h3{
+    padding-top: 10px;
+    color: #0a121c;
+    text-align: center;
+}
+.box-content{
+    padding: 24px;
+}
+.fa-star{
+    color:#b4690e
+}
+.box-content p span{
+    text-decoration: line-through ;
+    font-weight: 400;
+}
+.box-content p a{
+    color: #00a4ff;
+    text-decoration: underline;
+}
+/* footer */
+.pannel1{
+    height: 100px ;
+    background-color:#2D2F31;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #e4e8eb;
+}
+.pannel1 h2{
+    color: #ffffff;
+}
+.pannel2{
+    height: 300px;
+    background-color: #2D2F31;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 24px;
+}
+.list a{
+    color: #e4e8eb;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-decoration: underline;
+}
+.logo-foot p{
+    margin-top: 50px;
+    color: #ffffff;
+}
+.logo-foot p i{
+    margin-top: 30px;
+    color: #ffffff;
+}
